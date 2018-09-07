@@ -1,0 +1,6 @@
+J:\CSSTest\CSSTest\bin\CSSTest.dll.config
+J:\CSSTest\CSSTest\bin\CSSTest.dll
+J:\CSSTest\CSSTest\bin\CSSTest.pdb
+J:\CSSTest\CSSTest\obj\Debug\CSSTest.csprojResolveAssemblyReference.cache
+J:\CSSTest\CSSTest\obj\Debug\CSSTest.dll
+J:\CSSTest\CSSTest\obj\Debug\CSSTest.pdb
