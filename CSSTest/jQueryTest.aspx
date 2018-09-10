@@ -10,13 +10,13 @@
         {
             font-style:italic;
             color:#CCCCCC;
-            border-radius: 5px;
+            border-radius: 55px;
         }
         .defaultTextFocus
         {
             font-style:normal;
             color:#000000;
-            border-radius: 5px;
+            border-radius: 55px;
         }
 
         .MehButton
@@ -29,7 +29,7 @@
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            border-radius: 10px;
+            border-radius: 50px;
         }
 
     </style>
@@ -40,15 +40,17 @@
         $(document).ready(function () 
         {
             var searchBox = $('#<%=TextBox1.ClientID%>');
-            searchBox.focus(function () {
-                if (searchBox.val() == this.title) {
+            searchBox.focus(function ()
+            {
+                if (searchBox.val() == this.title)
+                {
                     searchBox.removeClass("defaultText");
                     searchBox.addClass("defaultTextFocus");
                     searchBox.val("");
                 }
             });
 
-            searchBox.blur( function() 
+            searchBox.blur(function() 
             {
                 if (searchBox.val() == "") 
                 {
@@ -57,6 +59,7 @@
                     searchBox.val(this.title);
                 }
             });
+
             searchBox.blur();
         })
 
@@ -67,7 +70,7 @@
     <form id="form1" runat="server">
         <p></p>
         <div align="center">
-            <fieldset style="width:400px;height:80px;">
+            <fieldset style="width:400px;height:80px; border-radius:20px;">
                 <p>
                     <asp:TextBox ID="TextBox1" width="200px" CssClass="defaultText" ToolTip="Enter your search keyword here" runat="server"></asp:TextBox>
                     <asp:Button ID="btnSubmit" Text="SEARCH" runat="server" CssClass ="MehButton"/>
