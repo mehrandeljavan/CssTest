@@ -5,34 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style>
-        .defaultText
-        {
-            font-style:italic;
-            color:#CCCCCC;
-            border-radius: 55px;
-        }
-        .defaultTextFocus
-        {
-            font-style:normal;
-            color:#000000;
-            border-radius: 55px;
-        }
-
-        .MehButton
-        {
-            background-color: #FF0000;
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border-radius: 50px;
-        }
-
-    </style>
+    <link href="CSS/MyTheme.css" rel="stylesheet" type="text/css"/>
 
     <script src="Scripts/jQuery.js" type="text/javascript"></script>
 
@@ -66,15 +39,12 @@
     </script>
 </head>
 
-<body>
+<body dir="rtl">
     <form id="form1" runat="server">
-        <p></p>
         <div align="center">
             <fieldset style="width:400px;height:80px; border-radius:20px;">
-                <p>
-                    <asp:TextBox ID="TextBox1" width="200px" CssClass="defaultText" ToolTip="Enter your search keyword here" runat="server"></asp:TextBox>
-                    <asp:Button ID="btnSubmit" Text="SEARCH" runat="server" CssClass ="MehButton"/>
-                </p>
+                <asp:TextBox ID="TextBox1" width="200px" CssClass="defaultText" ToolTip="لطفا کلمات کلیدی خود را وارد کنید" runat="server"></asp:TextBox>
+                <asp:Button ID="btnSubmit" Text="جستجو" runat="server" CssClass ="MehButton"/>
             </fieldset>
         </div>
     </form>

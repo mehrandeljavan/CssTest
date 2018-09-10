@@ -67,7 +67,7 @@
   <ItemGroup>
     <Content Include="CSSTest.aspx" />
     <Content Include="CSS\jquery-ui.css" />
-    <Content Include="CSS\jquery-ui.theme.css" />
+    <Content Include="CSS\MyTheme.css" />
     <Content Include="Scripts\jQuery.js" />
     <Content Include="jQueryTest.aspx" />
     <Content Include="Web.config" />

@@ -1,0 +1,33 @@
+.defaultText
+{
+    font-style:normal;
+    color:#CCCCCC;
+    border-radius: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+    direction:rtl;
+}
+.defaultTextFocus
+{
+    font-style:normal;
+    color:#000000;
+    border-radius: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+    direction:rtl;
+}
+
+.MehButton
+{
+    font-weight:900;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    direction:rtl;
+}
