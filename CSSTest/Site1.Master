@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CSSTest.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style="width:100%;">
+            <tr style="background-color:cyan; width:100%;">
+                <td style = "text-align: center;" class="auto-style2">Website Header</td>
+            </tr>
+            <tr>
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+                <td style="background-color:pink;" class="auto-style2">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1"></asp:TreeView>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                </td>
+                <td \>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td style="background-color:yellow; width:20%;">
+                    <asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource1">
+                    </asp:Menu>
+                </td>
+            </tr>
+        </table>
+        
+        
+        
+    </div>
+    </form>
+</body>
+</html>

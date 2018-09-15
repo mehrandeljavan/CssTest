@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CSSTest.SitemapPages
+namespace CSSTest
 {
     public partial class Root : System.Web.UI.Page
     {

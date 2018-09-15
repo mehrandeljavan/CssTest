@@ -21,6 +21,7 @@
                     if (searchBox.val() == this.title)
                     {
                         searchBox.removeClass("defaultText");
+                        searchBox.addClass("defaultTextFocus");
                         searchBox.val("");
                     }
                 });
@@ -29,6 +30,7 @@
                 {
                     if (searchBox.val() == "")
                     {
+                        searchBox.removeClass("defaultTextFocus");
                         searchBox.addClass("defaultText");
                         searchBox.val(this.title);
                     }
