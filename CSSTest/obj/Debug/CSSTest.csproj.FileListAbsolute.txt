@@ -4,3 +4,9 @@ J:\CSSTest\CSSTest\bin\CSSTest.pdb
 J:\CSSTest\CSSTest\obj\Debug\CSSTest.csprojResolveAssemblyReference.cache
 J:\CSSTest\CSSTest\obj\Debug\CSSTest.dll
 J:\CSSTest\CSSTest\obj\Debug\CSSTest.pdb
+F:\CSSTest\CSSTest\bin\CSSTest.dll.config
+F:\CSSTest\CSSTest\bin\CSSTest.dll
+F:\CSSTest\CSSTest\bin\CSSTest.pdb
+F:\CSSTest\CSSTest\obj\Debug\CSSTest.csprojResolveAssemblyReference.cache
+F:\CSSTest\CSSTest\obj\Debug\CSSTest.dll
+F:\CSSTest\CSSTest\obj\Debug\CSSTest.pdb
