@@ -1,0 +1,7 @@
+﻿@font-face {
+	font-family: 'WebFont_Yekan';
+	src: url('Fonts/Yekan.eot');
+	src: local('☺'), url('Fonts/Yekan.woff') format('woff'), url('Fonts/Yekan.ttf') format('truetype'), url('Fonts/Yekan.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

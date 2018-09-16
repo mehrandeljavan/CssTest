@@ -1,11 +1,13 @@
 form
 {
     direction:rtl;
+    font-family:WebFont_Yekan;
 }
 
 form div
 {
     direction:rtl;
+    font-family:WebFont_Yekan;
 }
 
 form div table
@@ -13,11 +15,13 @@ form div table
     direction:rtl;
     width:100%;
     height:100%;
+    font-family:WebFont_Yekan;
 }
 
 form div table tr
 {
     direction:rtl;
+    font-family:WebFont_Yekan;
 }
 
 .trHeader
@@ -26,6 +30,7 @@ form div table tr
     background-color:cyan; 
     width:100%;
     text-align: center;
+    font-family:WebFont_Yekan;
 }
 
 .trRightPanel
@@ -33,6 +38,7 @@ form div table tr
     background-color:pink; 
     width: 20%;
     direction:rtl;
+    font-family:WebFont_Yekan;
 }
 
 .trLeftPanel
@@ -40,15 +46,20 @@ form div table tr
     background-color:yellow; 
     width:20%;
     direction:rtl;
+    font-family:WebFont_Yekan;
 }
 
 .trCenterPanel
 {
     background-color:red;
     direction:rtl;
+    font-family:WebFont_Yekan;
 }
 
-
+.contentPlaceHolder
+{
+    font-family:WebFont_Yekan;
+}
 
 
 

@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts.css" />
     <Content Include="SitemapPages\Root.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="SitemapPages\WebForm1.aspx" />
@@ -65,13 +66,19 @@
     <Content Include="SitemapPages\WebForm2.aspx" />
     <Content Include="SitemapPages\WebForm21.aspx" />
     <Content Include="SitemapPages\WebForm22.aspx" />
+    <Content Include="Fonts\Yekan.eot" />
+    <Content Include="Fonts\Yekan.otf" />
+    <Content Include="Fonts\Yekan.ttf" />
+    <Content Include="Fonts\Yekan.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="Web.sitemap" />
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSSTest.aspx" />
