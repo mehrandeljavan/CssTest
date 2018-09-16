@@ -6,6 +6,7 @@
     <head runat="server">
         <title></title>
         <link href="CSS/MyTheme.css" rel="stylesheet" type="text/css"/>
+        <link href="fonts.css" rel="stylesheet" />
 
         <script src="Scripts/jQuery.js" type="text/javascript"></script>
         <script src="Scripts/MyScripts.js"></script>
