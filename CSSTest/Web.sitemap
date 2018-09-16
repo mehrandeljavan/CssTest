@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-   <siteMapNode url="Root.aspx" title="Root"  description="Root">
-     <siteMapNode url="WebForm1.aspx" title="WebForm1"  description="WebForm1">
-       <siteMapNode url="WebForm11.aspx" title="WebForm11"  description="WebForm11"/>
-       <siteMapNode url="WebForm12.aspx" title="WebForm12"  description="WebForm12"/>
+   <siteMapNode url="SitemapPages\Root.aspx" title="عنوان ریشه"  description="توضیحات ریشه">
+     <siteMapNode url="SitemapPages\WebForm1.aspx" title="Title1"  description="DescriptionWebForm1">
+       <siteMapNode url="SitemapPages\WebForm11.aspx" title="Title11"  description="DescriptionWebForm11"/>
+       <siteMapNode url="SitemapPages\WebForm12.aspx" title="Title12"  description="DescriptionWebForm12"/>
      </siteMapNode>
-     <siteMapNode url="WebForm2.aspx" title="WebForm2"  description="WebForm2">
-       <siteMapNode url="WebForm21.aspx" title="WebForm21"  description="WebForm21"/>
-       <siteMapNode url="WebForm22.aspx" title="WebForm22"  description="WebForm22"/>
+     <siteMapNode url="SitemapPages\WebForm2.aspx" title="Title2"  description="DescriptionWebForm2">
+       <siteMapNode url="SitemapPages\WebForm21.aspx" title="Title21"  description="DescriptionWebForm21"/>
+       <siteMapNode url="SitemapPages\WebForm22.aspx" title="Title22"  description="DescriptionWebForm22"/>
      </siteMapNode>
    </siteMapNode>
 </siteMap>

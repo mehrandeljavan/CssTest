@@ -1,3 +1,58 @@
+form
+{
+    direction:rtl;
+}
+
+form div
+{
+    direction:rtl;
+}
+
+form div table
+{
+    direction:rtl;
+    width:100%;
+    height:100%;
+}
+
+form div table tr
+{
+    direction:rtl;
+}
+
+.trHeader
+{
+    direction:rtl;
+    background-color:cyan; 
+    width:100%;
+    text-align: center;
+}
+
+.trRightPanel
+{
+    background-color:pink; 
+    width: 20%;
+    direction:rtl;
+}
+
+.trLeftPanel
+{
+    background-color:yellow; 
+    width:20%;
+    direction:rtl;
+}
+
+.trCenterPanel
+{
+    background-color:red;
+    direction:rtl;
+}
+
+
+
+
+
+
 .defaultText
 {
     font-style:normal;
